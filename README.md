@@ -4,12 +4,14 @@ Repositorio GitHub: https://github.com/JuanpDiaz02/Proyecto-Space-Invader
 Integrantes: Martínez Gastón, Liu Ignacio, Figueroa Matías, Díaz Juan Pablo
 
 
-Objetivo
+Objetivo:
+
 Nuestro objetivo es diseñar un videojuego dinámico basado en el arcade Space Invader logrando una correcta funcionalidad del juego y estéticamente presentable para los usuarios con todos los conocimientos adquiridos durante la cursada. 
 
 
 
-Funcionalidades
+Funcionalidades:
+
 Movimiento del jugador: La nave del jugador puede moverse hacia los lados usando el teclado.
 
 Disparo: El jugador puede disparar proyectiles para destruir enemigos.
@@ -24,7 +26,8 @@ Pantalla de inicio y final: Menú inicial con botón de "Jugar", pantalla de vic
 
 
 
-Plan de Entrega
+Plan de Entrega:
+
 40% del proyecto
 Implementación del movimiento de la nave.
 
