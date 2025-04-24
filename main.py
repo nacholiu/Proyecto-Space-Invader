@@ -37,7 +37,7 @@ while movimiento_lateral:
         if evento.type == pygame.KEYDOWN:
             if evento.key == pygame.K_SPACE:
                 # Crear disparo
-                posiciones_disparos.append(pygame.Rect(posicion_nave_x + 20, posicion_nave_y, 5, 15)) # Cambia el tamaño del disparo
+                posiciones_disparos.append(pygame.Rect(posicion_nave_x + 25, posicion_nave_y, 5, 15)) # Cambia el tamaño del disparo
 
         
     # Teclas para mover la nave
