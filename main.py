@@ -65,3 +65,4 @@ while movimiento_lateral:
 pygame.quit()
 sys.exit()
 
+#revision y control que se apliquen todos los los conceptos aprendido en clases 
