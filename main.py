@@ -61,7 +61,7 @@ while movimiento_lateral:
         pygame.draw.rect(pantalla, BLANCO, disparo)
     pygame.display.flip()
 
-# Salir
+# Salir del juego
 pygame.quit()
 sys.exit()
 
