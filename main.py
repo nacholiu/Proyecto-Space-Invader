@@ -52,7 +52,7 @@ while movimiento_lateral:
         disparo.y -= velocidad_disparo
 
     # Eliminar disparos que salieron de la pantalla
-    posiciones_disparos = [d for d in posiciones_disparos if d.y > 0]
+    posiciones_disparos = list(filter(lambda d: d.y > 0, posiciones_disparos))
 
     # Dibujar fondo, jugador y disparos de nave
     pantalla.fill(NEGRO)
@@ -66,3 +66,5 @@ pygame.quit()
 sys.exit()
 
 #revision y control que se apliquen todos los los conceptos aprendido en clases 
+#matrices lo podemos usar en los puntajes del jugador pero todavia no "sabemos" archivos x eso no lo usamos.
+#se hacer archivos(nacho) pero eso no podria aplicarlo ahora xq eso entraria en lo q es el 100% del juego.
